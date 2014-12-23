@@ -1,0 +1,5 @@
+#JSGF V1.0;
+
+grammar menu;
+
+public <command> = what is my [current] location | what is my [current] speed | what time is it;

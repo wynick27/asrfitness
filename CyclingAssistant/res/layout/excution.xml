@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="current location:"
+        android:gravity="center"
+        android:textColor="#808080"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/current_location"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/location"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="current weather:"
+        android:gravity="center"
+        android:textColor="#808080"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/current_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/weather"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/current_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/current_speed"
+            android:textColor="#DC143C"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/average_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/duration"
+            android:textColor="#DC143C"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/string_current_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="current speed"
+            android:textColor="#808080"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/string_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="duration"
+            android:textColor="#808080"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/string_current_distance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="current distance"
+        android:textColor="#808080"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/current_distance"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:text="@string/distance"
+        android:textColor="#DC143C"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/current_miles"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:text="miles"
+        android:textColor="#808080"
+        android:textSize="20sp" />
+    
+    <ImageButton
+        android:id="@+id/PauseButton"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/pause_button"
+        android:gravity="center_horizontal" 
+        android:onClick="startAnotherActivity"/>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal" >    
+
+ 
+    <ImageButton  
+       android:id="@+id/pause_button"  
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:background="@drawable/pause_button"
+		android:layout_alignParentRight = "true"   />  
+  
+    <ImageButton  
+        android:id="@+id/start_button"  
+	   android:layout_width="wrap_content"
+	   android:layout_height = "wrap_content" 
+	   android:background="@drawable/start_button"	
+	   android:layout_alignParentLeft = "true"
+	   android:layout_toLeftOf="@+id/pause_button"    />
+	</LinearLayout> 
+
+</LinearLayout>

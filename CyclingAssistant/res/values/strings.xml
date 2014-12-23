@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cystant</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_moto">welcome_moto</string>
+    <string name="distance">distance</string>
+    <string name="times">2</string>
+    <string name="average_speed">11 09</string>
+    <string name="total_time">10h 43min</string>
+    <string name="location">current location</string>
+    <string name="current_speed">0 00</string>
+    <string name="duration">01:25:10</string>
+    <string name="weather">current weather</string>
+
+</resources>
